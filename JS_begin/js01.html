@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrap {
+            width: 300px;
+            margin:  30px auto 0px auto;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        img {
+            width: 300px;
+            height: 300px;
+            border-radius: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrap">
+    <h2>🍌마우스를 올려보세요🍌</h2>
+    <hr>
+        <img src="img/apple.jpg" alt="웃음사과"
+        onmouseover="this.src='img/banana.png'"
+        onmouseout="this.src='img/apple.jpg'">
+    </div>
+    <script>
+        document.writeln("<h3>[긴급] 원숭이가 20대 男 얼굴에 분뇨 테러하다.<h3>")
+        document.writeln("<hr>")
+        document.writeln("<h3>[속보] 전국 원숭이 협회에서 긴급히 해당 원숭이 체포<h3>")
+    </script>
+</body>
+</html>
